@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Super Trunfo</title>
+</head>
+
+<body>
+  <div class="container">
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo" alt="">
+    <h1 class="page-title">Super Trunfo</h1>
+    <img src="https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/sites/6/2020/06/image9-1568x882.png" class="hp" alt=""> <br>
+    <button onclick="refresh()" id="refresh" disabled="true">Resetar Jogo</button>
+    <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+    <form id="form">
+      <h2>Escolha o seu atributo</h2>
+      <div class="wrapper">
+        <div>
+          <div id="carta-jogador">
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;">
+            <h3></h3>
+          </div>
+        </div>
+        <div>
+          <div id="carta-maquina" class="carta"><img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;"></div>
+        </div>
+      </div>
+      <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+      <div id="resultado"></div>
+      <h3>Para resetar(reiniciar) o jogo, clique duas vezes no botão <strong>Resetar Jogo</strong></h3>
+    </form>
+  </div>
+</body>
+
+</html>
