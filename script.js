@@ -70,7 +70,7 @@ var card7 = {
 var card8 = {
   nome: "Sirius Black",
   imagem:
-    "https://w7.pngwing.com/pngs/568/620/png-transparent-gary-oldman-sirius-black-the-dark-knight-harry-potter-commissioner-gordon-harry-potter-thumbnail.png",
+    "https://revistapagu.com.br/wp-content/uploads/2015/02/Sirius-Black-Wallpaper-sirius-black-32913976-1024-768.jpg",
   atributos: {
     magia: 50,
     defesa: 45,
