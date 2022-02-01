@@ -97,29 +97,30 @@ var card10 = {
     inteligência: 55
   }
 };
- var card11 = {
-   nome: "Fred Weasley",
-   imagem:
-     "https://e1.pngegg.com/pngimages/987/987/png-clipart-6k-watchers-part-two-harry-potter-fred-and-george-weasley.png",
+var card11 = {
+  nome: "Fred Weasley",
+  imagem:
+    "https://e1.pngegg.com/pngimages/987/987/png-clipart-6k-watchers-part-two-harry-potter-fred-and-george-weasley.png",
   atributos: {
     magia: 30,
-     defesa: 30,
-     inteligência: 55
-   }
- };
- var card12 = {
-   nome: "Jorge Weasley",
-   imagem:
-     "https://e1.pngegg.com/pngimages/987/987/png-clipart-6k-watchers-part-two-harry-potter-fred-and-george-weasley.png",
-   atributos: {
-     magia: 35,/     defesa: 30,
-     inteligência: 55
-   }
- };
+    defesa: 30,
+    inteligência: 55
+  }
+};
+var card12 = {
+  nome: "Jorge Weasley",
+  imagem:
+    "https://e1.pngegg.com/pngimages/987/987/png-clipart-6k-watchers-part-two-harry-potter-fred-and-george-weasley.png",
+  atributos: {
+    magia: 35,
+    defesa: 30,
+    inteligência: 55
+  }
+};
 var card13 = {
   nome: "Dobby",
   imagem:
-    "https://toppng.com/uploads/preview/report-abuse-dobby-harry-potter-11563349282j5ed55jvjj.png",
+    "https://image.pngaaa.com/431/1073431-middle.png",
   atributos: {
     magia: 40,
     defesa: 35,
@@ -127,16 +128,30 @@ var card13 = {
   }
 };
 
-var cards = [card1, card2, card3, card4, card5, card6, card7, card8, card9, card10, card11, card12, card13];
+var cards = [
+  card1,
+  card2,
+  card3,
+  card4,
+  card5,
+  card6,
+  card7,
+  card8,
+  card9,
+  card10,
+  card11,
+  card12,
+  card13
+];
 var cartaMaquina;
 var cartaPlayer;
 
 function sortearCarta() {
-  var numeroCartasMaquina = parseInt(Math.random() * 3);
+  var numeroCartasMaquina = parseInt(Math.random() * 13);
   cartaMaquina = cards[numeroCartasMaquina];
-  var numeroPlayer = parseInt(Math.random() * 3);
+  var numeroPlayer = parseInt(Math.random() * 13);
   while (numeroPlayer == numeroCartasMaquina) {
-    numeroPlayer = parseInt(Math.random() * 3);
+    numeroPlayer = parseInt(Math.random() * 13);
   }
   cartaPlayer = cards[numeroPlayer];
   document.getElementById("btnSortear").disabled = true;
