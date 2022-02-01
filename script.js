@@ -116,7 +116,7 @@ var card10 = {
      inteligência: 55
    }
  };
-var card11 = {
+var card13 = {
   nome: "Dobby",
   imagem:
     "https://toppng.com/uploads/preview/report-abuse-dobby-harry-potter-11563349282j5ed55jvjj.png",
