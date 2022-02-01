@@ -97,26 +97,25 @@ var card10 = {
     inteligência: 55
   }
 };
-// var card11 = {
-//   nome: "Fred Weasley",
-//   imagem:
-//     "https://img1.pnghut.com/21/13/19/WJXPmNdQes/hogwarts-george-weasley-white-collar-worker-gentleman-molly.jpg",
-//   atributos: {
-//     magia: 30,
-//     defesa: 30,
-//     inteligência: 55
-//   }
-// };
-// var card12 = {
-//   nome: "Jorge Weasley",
-//   imagem:
-//     "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7d1e37f4-0ff0-4c55-ad21-3dfe4047b652/ddqzg68-7b6b3595-5c38-43ab-9488-fd01183d8d56.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdkMWUzN2Y0LTBmZjAtNGM1NS1hZDIxLTNkZmU0MDQ3YjY1MlwvZGRxemc2OC03YjZiMzU5NS01YzM4LTQzYWItOTQ4OC1mZDAxMTgzZDhkNTYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.m1uVPLiefSEHl5wvviYOa_UHqiEtpYISizdCFSG1Z38",
-//   atributos: {
-//     magia: 35,
-//     defesa: 30,
-//     inteligência: 55
-//   }
-// };
+ var card11 = {
+   nome: "Fred Weasley",
+   imagem:
+     "https://e1.pngegg.com/pngimages/987/987/png-clipart-6k-watchers-part-two-harry-potter-fred-and-george-weasley.png",
+  atributos: {
+    magia: 30,
+     defesa: 30,
+     inteligência: 55
+   }
+ };
+ var card12 = {
+   nome: "Jorge Weasley",
+   imagem:
+     "https://e1.pngegg.com/pngimages/987/987/png-clipart-6k-watchers-part-two-harry-potter-fred-and-george-weasley.png",
+   atributos: {
+     magia: 35,/     defesa: 30,
+     inteligência: 55
+   }
+ };
 var card11 = {
   nome: "Dobby",
   imagem:
@@ -128,7 +127,7 @@ var card11 = {
   }
 };
 
-var cards = [card1, card2, card3];
+var cards = [card1, card2, card3, card4, card5, card6, card7, card8, card9, card10, card11, card12, card13];
 var cartaMaquina;
 var cartaPlayer;
 
