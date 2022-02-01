@@ -31,7 +31,7 @@ var card3 = {
 var card4 = {
   nome: "Ronald Weasley",
   imagem:
-    "https://toppng.com/uploads/preview/transparent-ron-weasley-ron-weasley-11563043110lotjv3syex.png",
+    "http://pm1.narvii.com/6961/c2ea0f3ed20d52612d3a15b698c378bbd8116213r1-500-545v2_00.jpg",
   atributos: {
     magia: 25,
     defesa: 30,
@@ -50,7 +50,7 @@ var card5 = {
 var card6 = {
   nome: "Hagrid",
   imagem:
-    "https://pm1.narvii.com/6810/760e6a82bf3e6718ae9bf5014cb55333a2c89d2cv2_hq.jpg6",
+    "http://4.bp.blogspot.com/-jiYOwBvamRc/TbH8oNhAuNI/AAAAAAAAANg/DFKszTBHmT0/s1600/Hagrid.png",
   atributos: {
     magia: 30,
     defesa: 40,
@@ -80,7 +80,7 @@ var card8 = {
 var card9 = {
   nome: "Luna Lovegood",
   imagem:
-    "https://www.pikpng.com/pngl/m/480-4802404_luna-lovegood-png-luna-lovegood-clipart.png",
+    "https://www.estrelando.com.br/uploads/2016/08/15/luna-lovegood-6-1471265903.jpg",
   atributos: {
     magia: 30,
     defesa: 30,
@@ -90,7 +90,7 @@ var card9 = {
 var card10 = {
   nome: "Severo Snape",
   imagem:
-    "https://e1.pngegg.com/pngimages/33/775/png-clipart-6k-watchers-part-two-harry-potter-professor-severus-snape.png",
+    "https://www.superprof.com.br/imagens/anuncios/professor-home-professor-severus-snape-aula-desenho-anatomico-arte-das-formas-internas.jpg",
   atributos: {
     magia: 40,
     defesa: 40,
@@ -100,7 +100,7 @@ var card10 = {
 var card11 = {
   nome: "Fred Weasley",
   imagem:
-    "https://e1.pngegg.com/pngimages/987/987/png-clipart-6k-watchers-part-two-harry-potter-fred-and-george-weasley.png",
+    "https://uploads.spiritfanfiction.com/historias/capas/202012/entre-risos-piadas-e-brincadeirasfred-weasley-21223887-111220202022.jpg",
   atributos: {
     magia: 30,
     defesa: 30,
@@ -110,7 +110,7 @@ var card11 = {
 var card12 = {
   nome: "Jorge Weasley",
   imagem:
-    "https://e1.pngegg.com/pngimages/987/987/png-clipart-6k-watchers-part-two-harry-potter-fred-and-george-weasley.png",
+    "https://pm1.narvii.com/6308/952a6772b722e09f06cb4b36499a8ccec7210f68_hq.jpg",
   atributos: {
     magia: 35,
     defesa: 30,
@@ -120,7 +120,7 @@ var card12 = {
 var card13 = {
   nome: "Dobby",
   imagem:
-    "https://image.pngaaa.com/431/1073431-middle.png",
+    "https://todateen.com.br/wp-content/uploads/2019/06/dobby.jpg",
   atributos: {
     magia: 40,
     defesa: 35,
